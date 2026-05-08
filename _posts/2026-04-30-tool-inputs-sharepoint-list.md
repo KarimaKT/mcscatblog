@@ -257,11 +257,11 @@ flowchart TB
     end
     subgraph T2["Tier 2: Dynamic Schema"]
         direction LR
-        B2["Schema and field descriptions retrieved"] --> D2["Top-level instructions<br>drive NL2Query"] --> E2["Tool receives<br>formed query"]
+        B2["Schema and field<br>descriptions retrieved"] --> D2["Top-level instructions<br>drive NL2Query"] --> E2["Tool receives<br>formed query"]
     end
     subgraph T3["Tier 3: Custom Prompt"]
         direction LR
-        A2["Schema and field descriptions retrieved"] --> B3["Custom prompt<br>generates OData query"] --> C3["Tool receives<br>formed query"]
+        A2["Schema and field<br>descriptions retrieved"] --> B3["Custom prompt<br>generates OData query"] --> C3["Tool receives<br>formed query"]
     end
 
     T1 ~~~ T2
@@ -270,14 +270,14 @@ flowchart TB
     style T1 fill:#2d7d46,stroke:#166534,color:#ffffff
     style T2 fill:#2563eb,stroke:#1d4ed8,color:#ffffff
     style T3 fill:#9333ea,stroke:#6b21a8,color:#ffffff
-    style A1 fill:#1f2937,stroke:#111827,color:#ffffff
-    style B1 fill:#1f2937,stroke:#111827,color:#ffffff
-    style B2 fill:#1f2937,stroke:#111827,color:#ffffff
-    style D2 fill:#1f2937,stroke:#111827,color:#ffffff
-    style E2 fill:#1f2937,stroke:#111827,color:#ffffff
-    style A2 fill:#1f2937,stroke:#111827,color:#ffffff
-    style B3 fill:#1f2937,stroke:#111827,color:#ffffff
-    style C3 fill:#1f2937,stroke:#111827,color:#ffffff
+    style A1 fill:#dcfce7,stroke:#166534,color:#111827
+    style B1 fill:#dcfce7,stroke:#166534,color:#111827
+    style B2 fill:#dbeafe,stroke:#1d4ed8,color:#111827
+    style D2 fill:#dbeafe,stroke:#1d4ed8,color:#111827
+    style E2 fill:#dbeafe,stroke:#1d4ed8,color:#111827
+    style A2 fill:#f3e8ff,stroke:#6b21a8,color:#111827
+    style B3 fill:#f3e8ff,stroke:#6b21a8,color:#111827
+    style C3 fill:#f3e8ff,stroke:#6b21a8,color:#111827
 ```
 
 ### Tier 1: Static schema in the input description (what we built above)
