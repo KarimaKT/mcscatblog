@@ -267,9 +267,17 @@ flowchart TB
     T1 ~~~ T2
     T2 ~~~ T3
 
-    style T1 fill:#f0fdf4,stroke:#2d7d46
-    style T2 fill:#eff6ff,stroke:#2563eb
-    style T3 fill:#faf5ff,stroke:#9333ea
+    style T1 fill:#2d7d46,stroke:#166534,color:#ffffff
+    style T2 fill:#2563eb,stroke:#1d4ed8,color:#ffffff
+    style T3 fill:#9333ea,stroke:#6b21a8,color:#ffffff
+    style A1 fill:#1f2937,stroke:#111827,color:#ffffff
+    style B1 fill:#1f2937,stroke:#111827,color:#ffffff
+    style B2 fill:#1f2937,stroke:#111827,color:#ffffff
+    style D2 fill:#1f2937,stroke:#111827,color:#ffffff
+    style E2 fill:#1f2937,stroke:#111827,color:#ffffff
+    style A2 fill:#1f2937,stroke:#111827,color:#ffffff
+    style B3 fill:#1f2937,stroke:#111827,color:#ffffff
+    style C3 fill:#1f2937,stroke:#111827,color:#ffffff
 ```
 
 ### Tier 1: Static schema in the input description (what we built above)
